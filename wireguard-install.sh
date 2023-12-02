@@ -6,7 +6,7 @@
 
 
 # Detect Debian users running the script with "sh" instead of bash
-awg_net='10.7.0'
+wg_net='10.7.0'
 
 if readlink /proc/$$/exe | grep -q "dash"; then
 	echo 'This installer needs to be run with "bash", not "sh".'
